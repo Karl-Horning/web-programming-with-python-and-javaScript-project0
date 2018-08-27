@@ -52,6 +52,8 @@ h4 { font-size: 1.2em; }
 h5 { font-size: 1em; }
 p { font-size: 1.25em; }
 
+#social-media { font-size: 6em; }
+
 /* styles */
 h1, h2, h3, h4, h5, h6 { 
    font-weight: bold; 
@@ -95,3 +97,6 @@ h5 { text-transform: none; }
 
 #hero { color: #fff; }
 .underground { text-transform: uppercase; font-weight: bold; }
+
+#social-media a { color: #5c6165; }
+#social-media a:hover { color: #fff; }
