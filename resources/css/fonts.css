@@ -110,10 +110,11 @@
    font-style: italic;
 }
 
-/* fonts */
+/* font families */
 body { font-family: 'Open Sans'; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Oswald'; }
 
+/* font sizes */
 h1 { font-size: 7em; }
 h2 { font-size: 6em; }
 h3 { font-size: 3.25em; }
@@ -123,7 +124,13 @@ p { font-size: 1.25em; }
 
 #social-media { font-size: 6em; }
 
-/* styles */
+/* font colours */
+h2 { color: #fff; }
+#hero { color: #fff; }
+#social-media a { color: #5c6165; }
+#social-media a:hover { color: #fff; }
+
+/* font styles */
 h1, h2, h3, h4, h5, h6 { 
    font-weight: bold; 
    letter-spacing: 1px; 
@@ -132,7 +139,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero {
-   color: #fff;
    text-shadow:
                -1px -1px 0 #464646,
                1px -1px 0 #464646,
@@ -151,7 +157,6 @@ h2 {
                inset 1px -1px 0 #464646,
                inset -1px 1px 0 #464646,
                inset 1px 1px 0 #464646;  
-   color: #fff;
    padding: 60px;
    text-align: center;
    text-shadow:
@@ -164,8 +169,4 @@ h2 {
 h3, h5 { margin-bottom: 30px; }
 h5 { text-transform: none; }
 
-#hero { color: #fff; }
 .underground { text-transform: uppercase; font-weight: bold; }
-
-#social-media a { color: #5c6165; }
-#social-media a:hover { color: #fff; }
