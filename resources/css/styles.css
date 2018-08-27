@@ -24,6 +24,10 @@ html, body { min-width: 576px; }
 .info { padding-top: 120px; padding-bottom: 140px; }
 .underground { padding: 20px; }
 
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.75)!important;
+}
+
 #social-media {
   background-color: #3f4247;
   border-top: 10px solid #5c6165;
