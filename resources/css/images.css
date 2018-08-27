@@ -17,14 +17,63 @@
 }
 
 /* Background images */
-#hero { background-image:url(../../resources/img/london-background.jpg); }
-#big-ben { background-image: url(../../resources/img/01-big-ben-bridge-clock-tower-50632.jpg); }
-#westminster-abbey { background-image: url(../../resources/img/02-ancient-architecture-building-678777.jpg); }
-#the-shard { background-image: url(../../resources/img/03-lucas-peng-382351-unsplash.jpg); }
-#the-london-eye { background-image: url(../../resources/img/04-architecture-attraction-blur-161762.jpg); }
-#the-millennium-bridge { background-image: url(../../resources/img/05-architecture-bridge-building-220769.jpg); }
-#st-pauls-cathedral { background-image: url(../../resources/img/06-architecture-buildings-cathedral-34751.jpg); }
-#changing-the-guard { background-image: url(../../resources/img/07-armour-brass-breast-plate-59822.jpg); }
-#british-museum { background-image: url(../../resources/img/08-viktor-forgacs-565847-unsplash.jpg); }
-#tower-bridge { background-image: url(../../resources/img/09-ancient-architecture-bridge-726484.jpg); }
-#camden-market { background-image: url(../../resources/img/10-clem-onojeghuo-192086-unsplash.jpg); }
+#hero { background-image:url(../../resources/img/768/london-background-768.jpg); }
+#big-ben { background-image: url(../../resources/img/768/01-big-ben-bridge-clock-tower-50632-768.jpg); }
+#westminster-abbey { background-image: url(../../resources/img/768/02-ancient-architecture-building-678777-768.jpg); }
+#the-shard { background-image: url(../../resources/img/768/03-lucas-peng-382351-unsplash-768.jpg); }
+#the-london-eye { background-image: url(../../resources/img/768/04-architecture-attraction-blur-161762-768.jpg); }
+#the-millennium-bridge { background-image: url(../../resources/img/768/05-architecture-bridge-building-220769-768.jpg); }
+#st-pauls-cathedral { background-image: url(../../resources/img/768/06-architecture-buildings-cathedral-34751-768.jpg); }
+#changing-the-guard { background-image: url(../../resources/img/768/07-armour-brass-breast-plate-59822-768.jpg); }
+#british-museum { background-image: url(../../resources/img/768/08-viktor-forgacs-565847-unsplash-768.jpg); }
+#tower-bridge { background-image: url(../../resources/img/768/09-ancient-architecture-bridge-726484-768.jpg); }
+#camden-market { background-image: url(../../resources/img/768/10-clem-onojeghuo-192086-unsplash-768.jpg); }
+
+/* =============================================================== */
+/* == MEDIA QUERIES */
+/* =============================================================== */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #hero { background-image:url(../../resources/img/992/london-background-992.jpg); }
+  #big-ben { background-image: url(../../resources/img/992/01-big-ben-bridge-clock-tower-50632-992.jpg); }
+  #westminster-abbey { background-image: url(../../resources/img/992/02-ancient-architecture-building-678777-992.jpg); }
+  #the-shard { background-image: url(../../resources/img/992/03-lucas-peng-382351-unsplash-992.jpg); }
+  #the-london-eye { background-image: url(../../resources/img/992/04-architecture-attraction-blur-161762-992.jpg); }
+  #the-millennium-bridge { background-image: url(../../resources/img/992/05-architecture-bridge-building-220769-992.jpg); }
+  #st-pauls-cathedral { background-image: url(../../resources/img/992/06-architecture-buildings-cathedral-34751-992.jpg); }
+  #changing-the-guard { background-image: url(../../resources/img/992/07-armour-brass-breast-plate-59822-992.jpg); }
+  #british-museum { background-image: url(../../resources/img/992/08-viktor-forgacs-565847-unsplash-992.jpg); }
+  #tower-bridge { background-image: url(../../resources/img/992/09-ancient-architecture-bridge-726484-992.jpg); }
+  #camden-market { background-image: url(../../resources/img/992/10-clem-onojeghuo-192086-unsplash-992.jpg); }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #hero { background-image:url(../../resources/img/1200/london-background-1200.jpg); }
+  #big-ben { background-image: url(../../resources/img/1200/01-big-ben-bridge-clock-tower-50632-1200.jpg); }
+  #westminster-abbey { background-image: url(../../resources/img/1200/02-ancient-architecture-building-678777-1200.jpg); }
+  #the-shard { background-image: url(../../resources/img/1200/03-lucas-peng-382351-unsplash-1200.jpg); }
+  #the-london-eye { background-image: url(../../resources/img/1200/04-architecture-attraction-blur-161762-1200.jpg); }
+  #the-millennium-bridge { background-image: url(../../resources/img/1200/05-architecture-bridge-building-220769-1200.jpg); }
+  #st-pauls-cathedral { background-image: url(../../resources/img/1200/06-architecture-buildings-cathedral-34751-1200.jpg); }
+  #changing-the-guard { background-image: url(../../resources/img/1200/07-armour-brass-breast-plate-59822-1200.jpg); }
+  #british-museum { background-image: url(../../resources/img/1200/08-viktor-forgacs-565847-unsplash-1200.jpg); }
+  #tower-bridge { background-image: url(../../resources/img/1200/09-ancient-architecture-bridge-726484-1200.jpg); }
+  #camden-market { background-image: url(../../resources/img/1200/10-clem-onojeghuo-192086-unsplash-1200.jpg); }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #hero { background-image:url(../../resources/img/london-background.jpg); }
+  #big-ben { background-image: url(../../resources/img/01-big-ben-bridge-clock-tower-50632.jpg); }
+  #westminster-abbey { background-image: url(../../resources/img/02-ancient-architecture-building-678777.jpg); }
+  #the-shard { background-image: url(../../resources/img/03-lucas-peng-382351-unsplash.jpg); }
+  #the-london-eye { background-image: url(../../resources/img/04-architecture-attraction-blur-161762.jpg); }
+  #the-millennium-bridge { background-image: url(../../resources/img/05-architecture-bridge-building-220769.jpg); }
+  #st-pauls-cathedral { background-image: url(../../resources/img/06-architecture-buildings-cathedral-34751.jpg); }
+  #changing-the-guard { background-image: url(../../resources/img/07-armour-brass-breast-plate-59822.jpg); }
+  #british-museum { background-image: url(../../resources/img/08-viktor-forgacs-565847-unsplash.jpg); }
+  #tower-bridge { background-image: url(../../resources/img/09-ancient-architecture-bridge-726484.jpg); }
+  #camden-market { background-image: url(../../resources/img/10-clem-onojeghuo-192086-unsplash.jpg); }
+}
