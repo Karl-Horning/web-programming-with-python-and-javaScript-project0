@@ -123,6 +123,7 @@ h5 { font-size: 1em; }
 p { font-size: 1.25em; }
 
 #social-media { font-size: 6em; }
+#copyright-info { font-size: 0.75em; }
 
 /* font colours */
 h2 { color: #fff; }
@@ -170,3 +171,4 @@ h3, h5 { margin-bottom: 30px; }
 h5 { text-transform: none; }
 
 .underground { text-transform: uppercase; font-weight: bold; }
+#copyright-info { text-transform: uppercase; }
