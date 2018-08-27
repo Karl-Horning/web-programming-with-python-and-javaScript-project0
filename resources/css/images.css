@@ -1,0 +1,30 @@
+/* Image layout */
+#hero {
+  background-color: #464646;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.image {
+  background-attachment: fixed;
+  background-color: #464646;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Background images */
+#hero { background-image:url(../../resources/img/london-background.jpg); }
+#big-ben { background-image: url(../../resources/img/01-big-ben-bridge-clock-tower-50632.jpg); }
+#westminster-abbey { background-image: url(../../resources/img/02-ancient-architecture-building-678777.jpg); }
+#the-shard { background-image: url(../../resources/img/03-lucas-peng-382351-unsplash.jpg); }
+#the-london-eye { background-image: url(../../resources/img/04-architecture-attraction-blur-161762.jpg); }
+#the-millennium-bridge { background-image: url(../../resources/img/05-architecture-bridge-building-220769.jpg); }
+#st-pauls-cathedral { background-image: url(../../resources/img/06-architecture-buildings-cathedral-34751.jpg); }
+#changing-the-guard { background-image: url(../../resources/img/07-armour-brass-breast-plate-59822.jpg); }
+#british-museum { background-image: url(../../resources/img/08-viktor-forgacs-565847-unsplash.jpg); }
+#tower-bridge { background-image: url(../../resources/img/09-ancient-architecture-bridge-726484.jpg); }
+#camden-market { background-image: url(../../resources/img/10-clem-onojeghuo-192086-unsplash.jpg); }
