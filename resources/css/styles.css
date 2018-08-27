@@ -3,6 +3,8 @@
   color: #fff;
 }
 
+html, body { min-width: 576px; }
+
 /* Tube colours */
 .underground { color: #fff; }
 .bakerloo { background-color: #b46404; }
@@ -37,26 +39,6 @@
   padding-bottom: 20px;
 }
 
-/* =============================================================== */
-/* == MEDIA QUERIES */
-/* =============================================================== */
-
-/* Small devices (phones, 576px and up) */
-@media (min-width: 576px) {
-  #hero { background-image: url(../../resources/img/london-background.jpg); }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  #hero { background-image: url(../../resources/img/london-background.jpg); }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  #hero { background-image: url(../../resources/img/london-background.jpg); }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  #hero { background-image: url(../../resources/img/london-background.jpg); }
+.w-100 {
+  width: 100vw!important;
 }

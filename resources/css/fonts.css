@@ -115,14 +115,14 @@ body { font-family: 'Open Sans'; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Oswald'; }
 
 /* font sizes */
-h1 { font-size: 7em; }
-h2 { font-size: 6em; }
-h3 { font-size: 3.25em; }
+h1 { font-size: 4em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 2em; }
 h4 { font-size: 1.2em; }
 h5 { font-size: 1em; }
 p { font-size: 1.25em; }
 
-#social-media { font-size: 6em; }
+#social-media { font-size: 4em; }
 #copyright-info { font-size: 0.75em; }
 
 /* font colours */
@@ -172,3 +172,36 @@ h5 { text-transform: none; }
 
 .underground { text-transform: uppercase; font-weight: bold; }
 #copyright-info { text-transform: uppercase; }
+
+/* =============================================================== */
+/* == MEDIA QUERIES */
+/* =============================================================== */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+   h1 { font-size: 5em; }
+   h2 { font-size: 2.2em; }
+   h3 { font-size: 2em; }
+ }
+ 
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) {
+   h2 { font-size: 3em; }
+   h3 { font-size: 2.5em; }
+ }
+ 
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+   h1 { font-size: 6em; }
+   h2 { font-size: 5em; }
+ }
+ 
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+   /* font sizes */
+   h1 { font-size: 7em; }
+   h2 { font-size: 6em; }
+   h3 { font-size: 3.25em; }
+
+   #social-media { font-size: 6em; }
+ }
