@@ -112,7 +112,7 @@
 
 /* font families */
 body { font-family: 'Open Sans'; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Oswald'; }
+h1, h2, h3, h4, h5, h6, nav { font-family: 'Oswald'; }
 
 /* font sizes */
 h1 { font-size: 4em; }
@@ -121,6 +121,7 @@ h3 { font-size: 2em; }
 h4 { font-size: 1.2em; }
 h5 { font-size: 1em; }
 p { font-size: 1.25em; }
+
 
 #social-media { font-size: 4em; }
 #copyright-info { font-size: 0.75em; }
@@ -138,6 +139,19 @@ h1, h2, h3, h4, h5, h6 {
    margin-bottom: 18px; 
    text-transform: uppercase; 
 }
+
+nav {
+   font-weight: 300;
+   text-shadow:
+   -1px -1px 0 #464646,
+   1px -1px 0 #464646,
+   -1px 1px 0 #464646,
+   1px 1px 0 #464646;
+   text-transform: uppercase;
+}
+
+.navbar-brand { letter-spacing: 2px; }
+.fa-taxi { position: relative; top: -1.5px; }
 
 #hero {
    text-shadow:
@@ -205,3 +219,6 @@ h5 { text-transform: none; }
 
    #social-media { font-size: 6em; }
  }
+
+ /* Styling for when hamburger menu is active */
+ @media (max-width: 991.98px) { .navbar-nav { font-size: 1.5em; } }
