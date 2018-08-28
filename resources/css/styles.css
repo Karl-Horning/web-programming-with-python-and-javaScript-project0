@@ -3,7 +3,8 @@
   color: #fff;
 }
 
-html, body { min-width: 576px; }
+html, body { min-width: 640px; }
+header, section { min-height: 1136px; }
 
 /* Tube colours */
 .underground { color: #fff; }
@@ -26,6 +27,7 @@ html, body { min-width: 576px; }
 
 .bg-dark {
   background-color: rgba(0, 0, 0, 0.75)!important;
+  transition: 0.3s;
 }
 
 #social-media {
@@ -43,13 +45,14 @@ html, body { min-width: 576px; }
   padding-bottom: 20px;
 }
 
-.w-100 {
-  width: 100vw!important;
-}
+.w-100 { width: 100vw!important; }
 
 /* Stops the nav from pushing down the content */
 .sticky-top { position: fixed; width: 100%; }
 
+/* =============================================================== */
+/* == MEDIA QUERIES */
+/* =============================================================== */
 
  /* Styling for when hamburger menu is active */
  @media (max-width: 991.98px) {

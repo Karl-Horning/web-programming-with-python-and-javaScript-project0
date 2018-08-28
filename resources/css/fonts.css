@@ -122,11 +122,12 @@ h4 { font-size: 1.2em; }
 h5 { font-size: 1em; }
 p { font-size: 1.25em; }
 
-
 #social-media { font-size: 4em; }
 #copyright-info { font-size: 0.75em; }
 
 /* font colours */
+.navbar a { color: #fff; }
+.navbar-dark .navbar-nav .nav-link { color: #fff; }
 h2 { color: #fff; }
 #hero { color: #fff; }
 #social-media a { color: #5c6165; }
