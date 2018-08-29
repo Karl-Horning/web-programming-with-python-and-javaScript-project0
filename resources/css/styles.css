@@ -31,6 +31,11 @@ header, section { min-height: 700px; }
   transition: 0.3s;
 }
 
+iframe {
+  border: none;
+  margin-bottom: -7px;
+}
+
 #social-media {
   background-color: #3f4247;
   border-top: 10px solid #5c6165;
