@@ -4,7 +4,7 @@
 }
 
 html, body { min-width: 640px; }
-header, section { min-height: 1136px; }
+header, section { min-height: 700px; }
 
 /* Tube colours */
 .underground { color: #fff; }
@@ -22,6 +22,7 @@ header, section { min-height: 1136px; }
 
 /* Sections layout */
 .image { border-top: 10px solid #000; border-bottom: 10px solid #000; }
+.border-bottom { border-bottom: 10px solid #000 !important; }
 .info { padding-top: 120px; padding-bottom: 140px; }
 .underground { padding: 20px; }
 
