@@ -18,6 +18,9 @@
 
 /* Background images */
 .home { background-image:url(../../resources/img/768/london-background-768.jpg); }
+.about { background-image:url(../../resources/img/768/john-t-298616-unsplash-768.png); }
+.contact { background-image:url(../../resources/img/768/sebastian-grochowicz-672772-unsplash-768.png); }
+.links { background-image:url(../../resources/img/768/blur-dark-droplets-788859-768.png); }
 #big-ben { background-image: url(../../resources/img/768/01-big-ben-bridge-clock-tower-50632-768.jpg); }
 #westminster-abbey { background-image: url(../../resources/img/768/02-ancient-architecture-building-678777-768.jpg); }
 #the-shard { background-image: url(../../resources/img/768/03-lucas-peng-382351-unsplash-768.jpg); }
@@ -36,6 +39,9 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .home { background-image:url(../../resources/img/992/london-background-992.jpg); }
+  .about { background-image:url(../../resources/img/992/john-t-298616-unsplash-992.png); }
+  .contact { background-image:url(../../resources/img/992/sebastian-grochowicz-672772-unsplash-992.png); }
+  .links { background-image:url(../../resources/img/992/blur-dark-droplets-788859-992.png); }
   #big-ben { background-image: url(../../resources/img/992/01-big-ben-bridge-clock-tower-50632-992.jpg); }
   #westminster-abbey { background-image: url(../../resources/img/992/02-ancient-architecture-building-678777-992.jpg); }
   #the-shard { background-image: url(../../resources/img/992/03-lucas-peng-382351-unsplash-992.jpg); }
@@ -51,6 +57,9 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .home { background-image:url(../../resources/img/1200/london-background-1200.jpg); }
+  .about { background-image:url(../../resources/img/1200/john-t-298616-unsplash-1200.png); }
+  .contact { background-image:url(../../resources/img/1200/sebastian-grochowicz-672772-unsplash-1200.png); }
+  .links { background-image:url(../../resources/img/1200/blur-dark-droplets-788859-1200.png); }
   #big-ben { background-image: url(../../resources/img/1200/01-big-ben-bridge-clock-tower-50632-1200.jpg); }
   #westminster-abbey { background-image: url(../../resources/img/1200/02-ancient-architecture-building-678777-1200.jpg); }
   #the-shard { background-image: url(../../resources/img/1200/03-lucas-peng-382351-unsplash-1200.jpg); }
