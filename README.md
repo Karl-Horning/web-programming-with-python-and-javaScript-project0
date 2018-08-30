@@ -1,5 +1,6 @@
 # Web Programming with Python and JavaScript: Project 0
 
+
 ## Project Requirements
 
 * Your website must contain at least four different .html pages, and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
@@ -10,6 +11,7 @@
 * You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
 * Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 * In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+
 
 ## Completed Requirements
 
@@ -29,6 +31,7 @@
 - [x] fonts.scss and images.scss both include examples of SCSS inheritance
 
 * In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+
 
 ## References
 
