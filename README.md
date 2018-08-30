@@ -9,6 +9,14 @@
 - [x] background images are included on each page; a standard image is included in the about.html page
 - [x] five stylesheet files
 - [x] multiple CSS properties and CSS selectors (including the #id selector and the .class selector) are used across the five files
+- [x] 
+
+@media (max-width: 991.98px) {
+   .navbar-nav { text-align: center; }
+   .navbar-nav li { padding-top: 10px; padding-bottom: 10px; }
+   .navbar-nav li:hover { background-color: rgba(70, 70, 70, 0.75); }
+ }
+ 
 * Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
 * You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
 * Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
