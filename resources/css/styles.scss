@@ -1,69 +1,69 @@
 @import 'global';
 
 ::selection {
-   background-color: $circle-yellow;
-   color: $northern-black;
- }
- 
- html, body { min-width: 640px; }
- header, section { min-height: 700px; }
+  background-color: $circle-yellow;
+  color: $northern-black;
+}
 
- /* Tube colours */
- .underground { color: $frost-white; }
- .bakerloo { background-color: $bakerloo-brown; }
- .central { background-color: $central-red; }
- .circle { background-color: $circle-yellow; }
- .district { background-color: $district-green; }
- .hammersmith-and-city { background-color: $hammersmith-and-city-pink; }
- .jubilee { background-color: $jubilee-grey; }
- .metropolitan { background-color: $metropolitan-purple; }
- .northern { background-color: $northern-black; }
- .piccadilly { background-color: $piccadilly-blue; }
- .victoria { background-color: $victoria-light-blue; }
- .waterloo-and-city { background-color: $waterloo-and-city-aqua; }
- 
- /* Sections layout */
- .image { border-top: $thick-border; border-bottom: $thick-border; }
- .border-bottom { border-bottom: $thick-border !important; }
- .info { padding-top: 120px; padding-bottom: 140px; }
- .underground { padding: 20px; }
- 
- .bg-dark {
-   background-color: rgba(0, 0, 0, 0.75)!important;
-   transition: 0.3s;
- }
- 
- iframe {
-   border: none;
-   margin-bottom: -7px;
- }
- 
- #social-media {
-   background-color: $social-dark-grey;
-   border-top: 10px solid $social-light-grey;
-   color: $social-light-grey;
-   padding-top: 60px;
-   padding-bottom: 40px;
- }
- 
- #copyright-info {
-   background-color: $northern-black;
-   color: $frost-white;
-   padding-top: 30px;
-   padding-bottom: 20px;
- }
- 
- .w-100 { width: 100vw!important; }
- 
- /* Stops the nav from pushing down the content */
- .sticky-top { position: fixed; width: 100%; }
- 
- /* =============================================================== */
- /* == MEDIA QUERIES */
- /* =============================================================== */
- 
-  /* Styling for when hamburger menu is active */
-  @media (max-width: 991.98px) {
+html, body { min-width: 640px; }
+header, section { min-height: 700px; }
+
+/* Tube colours */
+.underground { color: $frost-white; }
+.bakerloo { background-color: $bakerloo-brown; }
+.central { background-color: $central-red; }
+.circle { background-color: $circle-yellow; }
+.district { background-color: $district-green; }
+.hammersmith-and-city { background-color: $hammersmith-and-city-pink; }
+.jubilee { background-color: $jubilee-grey; }
+.metropolitan { background-color: $metropolitan-purple; }
+.northern { background-color: $northern-black; }
+.piccadilly { background-color: $piccadilly-blue; }
+.victoria { background-color: $victoria-light-blue; }
+.waterloo-and-city { background-color: $waterloo-and-city-aqua; }
+
+/* Sections layout */
+.image { border-top: $thick-border; border-bottom: $thick-border; }
+.border-bottom { border-bottom: $thick-border !important; }
+.info { padding-top: 120px; padding-bottom: 140px; }
+.underground { padding: 20px; }
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.75)!important;
+  transition: 0.3s;
+}
+
+iframe {
+  border: none;
+  margin-bottom: -7px;
+}
+
+#social-media {
+  background-color: $social-dark-grey;
+  border-top: 10px solid $social-light-grey;
+  color: $social-light-grey;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#copyright-info {
+  background-color: $northern-black;
+  color: $frost-white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.w-100 { width: 100vw!important; }
+
+/* Stops the nav from pushing down the content */
+.sticky-top { position: fixed; width: 100%; }
+
+/* =============================================================== */
+/* == MEDIA QUERIES */
+/* =============================================================== */
+
+/* Styling for when hamburger menu is active */
+@media (max-width: 991.98px) {
    .navbar-nav { text-align: center; }
    .navbar-nav li { padding-top: 10px; padding-bottom: 10px; }
    .navbar-nav li:hover { background-color: rgba(70, 70, 70, 0.75); }
