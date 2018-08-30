@@ -23,8 +23,8 @@
 - [x] one media query is included in the styles.css file (line 121) that styles the navbar for mobiles; a number of media queries are included in the images.css file (starting at line 81) that change the page images based on the screen size
 - [x] Bootstrap 4 is included on each page
 - [x] Bootstrap components are included in each page: containers are included across the site, the about page uses Bootstrap responsive images, the links page uses Bootsrap responsive tables, and the contact page uses Bootstrap responsive forms
+- [x] Bootstrap single columns are used throughout the site; multiple columns are used for the Tube lines within each entry on the index.html page; double columns are used on the contact.html page for the 'Name' and 'Email' fields.
 
-* You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
 * Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 * In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
 
