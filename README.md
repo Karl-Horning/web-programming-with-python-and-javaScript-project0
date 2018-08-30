@@ -24,8 +24,10 @@
 - [x] Bootstrap 4 is included on each page
 - [x] Bootstrap components are included in each page: containers are included across the site, the about page uses Bootstrap responsive images, the links page uses Bootsrap responsive tables, and the contact page uses Bootstrap responsive forms
 - [x] Bootstrap single columns are used throughout the site; multiple columns are used for the Tube lines within each entry on the index.html page; double columns are used on the contact.html page for the 'Name' and 'Email' fields.
+- [x] seven Sass files are included: font-faces.scss, global.scss, fonts.css, forms.css, images.css, styles.css, and tables.css - global.scss and fonts.css both include SCSS declarations and the all of the files use SCSS variables
+- [x] tables.scss includes two examples of SCSS nesting
+- [x] fonts.scss and images.scss both include examples of SCSS inheritance
 
-* Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 * In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
 
 ## References
