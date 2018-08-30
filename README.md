@@ -1,6 +1,10 @@
 # Web Programming with Python and JavaScript: Project 0
 
-\s
+project0 contains the site 'LDN' which is made up of four pages and gives users recommendations of the best places to visit in London.
+
+The project requirements and the fulfilled requirements (all) have been included below so as to make them easy to compare.
+
+The Completed Requirements also include descriptions of where to find the fulfilled requirements.
 
 ## Project Requirements
 
@@ -30,8 +34,7 @@
 - [x] seven Sass files are included: font-faces.scss, global.scss, fonts.css, forms.css, images.css, styles.css, and tables.css - global.scss and fonts.css both include SCSS declarations and the all of the files use SCSS variables
 - [x] tables.scss includes two examples of SCSS nesting
 - [x] fonts.scss and images.scss both include examples of SCSS inheritance
-
-* In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+- [x] README.md included with a short writeup describing the project and what’s contained in each file
 
 
 ## References
