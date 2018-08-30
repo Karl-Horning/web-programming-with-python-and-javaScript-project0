@@ -1,0 +1,16 @@
+@import 'global';
+
+.table {
+   .thead-dark {
+      th {
+         font-weight: 400;
+         text-transform: uppercase;
+      }
+   }
+}
+
+.table-bordered {
+   td, th {
+      border: 1px solid $jubilee-grey;
+   }
+}

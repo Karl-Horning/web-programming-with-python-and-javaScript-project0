@@ -1,22 +1,31 @@
-
 input[type=email]:focus, input[type=text]:focus, textarea:focus {
-   border: 5px solid #e41c14 !important; 
-   box-shadow: none !important;
+  border: 5px solid #e41c14 !important;
+  box-shadow: none !important;
 }
 
-.form-control { 
-   border: 5px solid #3f4247; 
-   background-color: #efefef; 
-   border-radius: 0.3px;
+.form-control {
+  border: 5px solid #3f4247;
+  background-color: #efefef;
+  border-radius: 0.3px;
 }
-.form-control-lg { padding: 1.7rem 1rem }
 
-.btn-block { margin-top: 50px; }
+.form-control-lg {
+  padding: 1.7rem 1rem;
+}
+
+.btn-block {
+  margin-top: 50px;
+}
+
 .btn-group-lg > .btn, .btn-lg {
-   border: 5px solid #3f4247; 
-   border-radius: 0.3px;
-   padding: 1.5rem 1rem;
-   text-transform: uppercase;
+  border: 5px solid #3f4247;
+  border-radius: 0.3px;
+  padding: 1.5rem 1rem;
+  text-transform: uppercase;
 }
 
-.btn-group-lg > .btn, .btn-lg:hover { border: 5px solid #3f4247; }
+.btn-group-lg > .btn, .btn-lg:hover {
+  border: 5px solid #3f4247;
+}
+
+/*# sourceMappingURL=forms.css.map */

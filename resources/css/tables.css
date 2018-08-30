@@ -1,4 +1,10 @@
 .table .thead-dark th {
-   font-weight: 400;
-   text-transform: uppercase;
+  font-weight: 400;
+  text-transform: uppercase;
 }
+
+.table-bordered td, .table-bordered th {
+  border: 1px solid #a4a4a3;
+}
+
+/*# sourceMappingURL=tables.css.map */

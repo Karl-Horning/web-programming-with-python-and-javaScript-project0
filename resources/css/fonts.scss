@@ -1,0 +1,130 @@
+@import 'font-faces';
+@import 'global';
+
+$body-font: 'Open Sans';
+$header-font: 'Oswald';
+
+%h-styles {
+   font-weight: bold; 
+   letter-spacing: 1px; 
+   margin-bottom: 18px; 
+}
+
+%text-outline {
+   text-shadow:
+      -1px -1px 0 $social-light-grey,
+      1px -1px 0 $social-light-grey,
+      -1px 1px 0 $social-light-grey,
+      1px 1px 0 $social-light-grey;
+}
+
+%box-outline {
+   box-shadow:
+      -1px -1px 0 $social-light-grey,
+      1px -1px 0 $social-light-grey,
+      -1px 1px 0 $social-light-grey,
+      1px 1px 0 $social-light-grey;
+}
+
+%box-inset {
+   box-shadow:
+      inset -1px -1px 0 $social-light-grey,
+      inset 1px -1px 0 $social-light-grey,
+      inset -1px 1px 0 $social-light-grey,
+      inset 1px 1px 0 $social-light-grey;
+}
+
+/* font families */
+body { font-family: $body-font; }
+h1, h2, h3, h4, h5, h6, nav { font-family: $header-font; }
+
+/* font sizes */
+h1 { font-size: 4em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 2em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1em; }
+p { font-size: 1.25em; }
+
+#social-media { font-size: 4em; }
+#copyright-info { font-size: 0.75em; }
+
+/* font colours */
+.navbar a { color: $frost-white; }
+.navbar-dark .navbar-nav .nav-link { color: $frost-white; }
+h2 { color: $frost-white; }
+#hero { color: $frost-white; }
+#social-media a { color: $social-light-grey; }
+#social-media a:hover { color: $frost-white; }
+
+/* font styles */
+h1, h2, h3, h4, h5, h6 { 
+   @extend %h-styles;
+}
+
+h1, h2, h3, h4, h6 { 
+   @extend %h-styles;
+   text-transform: uppercase; 
+}
+
+h3, h5 { margin-bottom: 30px; }
+
+h2 {
+   @extend %box-outline;
+   @extend %box-inset;
+   @extend %text-outline;
+   border: 18px solid $frost-white;
+   padding: 60px;
+   text-align: center;
+}
+
+nav {
+   @extend %text-outline;
+   font-weight: 300;
+   text-transform: uppercase;
+}
+
+#hero {
+   @extend %text-outline;
+}
+
+.navbar-brand { letter-spacing: 2px; }
+.fa-taxi { position: relative; top: -1.5px; }
+.underground { text-transform: uppercase; font-weight: bold; }
+#copyright-info { text-transform: uppercase; }
+
+/* =============================================================== */
+/* == MEDIA QUERIES */
+/* =============================================================== */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+   h1 { font-size: 5em; }
+   h2 { font-size: 2.2em; }
+   h3 { font-size: 2em; }
+ }
+ 
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) {
+   h2 { font-size: 3em; }
+   h3 { font-size: 2.5em; }
+ }
+ 
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+   h1 { font-size: 6em; }
+   h2 { font-size: 5em; }
+ }
+ 
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+   /* font sizes */
+   h1 { font-size: 7em; }
+   h2 { font-size: 6em; }
+   h3 { font-size: 3.25em; }
+
+   #social-media { font-size: 6em; }
+ }
+
+ /* Styling for when hamburger menu is active */
+ @media (max-width: 991.98px) { .navbar-nav { font-size: 1.5em; } }
