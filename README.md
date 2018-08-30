@@ -12,6 +12,7 @@ You must use Bootstrap 4 on your website, taking advantage of at least one Boots
 * In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
 
 - [x] four different .html pages: index.html, about.html, links.html, and contact.html
+- [x] possible to get from any page to any other page by following one or more hyperlinks: all hyperlinks are included in the navbar
 
 ## References
 
