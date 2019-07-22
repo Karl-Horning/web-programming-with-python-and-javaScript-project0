@@ -47,3 +47,8 @@ https://www.w3schools.com/bootstrap4/bootstrap_navs.asp
 
 Are Safari & Mobile Safari rendering rounded borders with radius and padding incorrectly?:
 https://stackoverflow.com/questions/14444806/are-safari-mobile-safari-rendering-rounded-borders-with-radius-and-padding-inc
+
+
+## Site Preview
+
+![LDN page preview](./resources/img/ldn-preview.gif "LDN page preview")
