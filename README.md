@@ -2,7 +2,7 @@
 
 Welcome to LDN, your ultimate guide to exploring the best of London!
 
-![LDN Page Preview](./resources/img/ldn-preview.png "LDN Page Preview")
+![LDN Page Preview](./src/img/ldn-preview.png "LDN Page Preview")
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ LDN is a web project that provides recommendations for the top places to visit i
 
 ## Preview
 
-![LDN Page Preview](./resources/img/ldn-preview.gif "LDN Page Preview")
+![LDN Page Preview](./src/img/ldn-preview.gif "LDN Page Preview")
 
 ## Features
 
