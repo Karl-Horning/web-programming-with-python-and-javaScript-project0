@@ -1,117 +1,119 @@
 ::selection {
-  background-color: #eeb742;
-  color: #1c1c1c;
+    background-color: #eeb742;
+    color: #1c1c1c;
 }
 
-html, body {
-  min-width: 640px;
+html,
+body {
+    min-width: 640px;
 }
 
-header, section {
-  min-height: 700px;
+header,
+section {
+    min-height: 700px;
 }
 
 /* Tube colours */
 .underground {
-  color: #fafaff;
+    color: #fafaff;
 }
 
 .bakerloo {
-  background-color: #b46404;
+    background-color: #b46404;
 }
 
 .central {
-  background-color: #e41c14;
+    background-color: #e41c14;
 }
 
 .circle {
-  background-color: #eeb742;
+    background-color: #eeb742;
 }
 
 .district {
-  background-color: #047c34;
+    background-color: #047c34;
 }
 
 .hammersmith-and-city {
-  background-color: #f38599;
+    background-color: #f38599;
 }
 
 .jubilee {
-  background-color: #a4a4a3;
+    background-color: #a4a4a3;
 }
 
 .metropolitan {
-  background-color: #9c045c;
+    background-color: #9c045c;
 }
 
 .northern {
-  background-color: #1c1c1c;
+    background-color: #1c1c1c;
 }
 
 .piccadilly {
-  background-color: #24348c;
+    background-color: #24348c;
 }
 
 .victoria {
-  background-color: #049adb;
+    background-color: #049adb;
 }
 
 .waterloo-and-city {
-  background-color: #e41c14;
+    background-color: #e41c14;
 }
 
 /* Sections layout */
 .image {
-  border-top: 10px solid #1c1c1c;
-  border-bottom: 10px solid #1c1c1c;
+    border-top: 10px solid #1c1c1c;
+    border-bottom: 10px solid #1c1c1c;
 }
 
 .border-bottom {
-  border-bottom: 10px solid #1c1c1c !important;
+    border-bottom: 10px solid #1c1c1c !important;
 }
 
 .info {
-  padding-top: 120px;
-  padding-bottom: 140px;
+    padding-top: 120px;
+    padding-bottom: 140px;
 }
 
 .underground {
-  padding: 20px;
+    padding: 20px;
 }
 
 .bg-dark {
-  background-color: rgba(0, 0, 0, 0.75) !important;
-  transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    transition: 0.3s;
 }
 
 iframe {
-  border: none;
-  margin-bottom: -7px;
+    border: none;
+    margin-bottom: -7px;
 }
 
 #social-media {
-  background-color: #3f4247;
-  border-top: 10px solid #5c6165;
-  color: #5c6165;
-  padding-top: 60px;
-  padding-bottom: 40px;
+    background-color: #3f4247;
+    border-top: 10px solid #5c6165;
+    color: #5c6165;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 #copyright-info {
-  background-color: #1c1c1c;
-  color: #fafaff;
-  padding-top: 30px;
-  padding-bottom: 20px;
+    background-color: #1c1c1c;
+    color: #fafaff;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .w-100 {
-  width: 100vw !important;
+    width: 100vw !important;
 }
 
 /* Stops the nav from pushing down the content */
 .sticky-top {
-  position: fixed;
-  width: 100%;
+    position: fixed;
+    width: 100%;
 }
 
 /* =============================================================== */
@@ -119,18 +121,18 @@ iframe {
 /* =============================================================== */
 /* Styling for when hamburger menu is active */
 @media (max-width: 991.98px) {
-  .navbar-nav {
-    text-align: center;
-  }
+    .navbar-nav {
+        text-align: center;
+    }
 
-  .navbar-nav li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+    .navbar-nav li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
-  .navbar-nav li:hover {
-    background-color: rgba(70, 70, 70, 0.75);
-  }
+    .navbar-nav li:hover {
+        background-color: rgba(70, 70, 70, 0.75);
+    }
 }
 
 /*# sourceMappingURL=styles.css.map */
