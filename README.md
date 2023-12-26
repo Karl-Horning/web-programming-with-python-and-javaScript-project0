@@ -1,4 +1,4 @@
-# Web Programming with Python and JavaScript: Project 0: LDN - London Exploration Guide
+# CS50 Web Programming with Python and JavaScript: Project 0: LDN - London Exploration Guide
 
 Welcome to LDN, your ultimate guide to exploring the best of London!
 
