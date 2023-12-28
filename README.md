@@ -2,12 +2,11 @@
 
 Welcome to LDN, your ultimate guide to exploring the best of London!
 
-![LDN Page Preview](./src/img/ldn-preview.png "LDN Page Preview")
+![LDN Page Preview](./src/img/ldn-preview.gif "LDN Page Preview")
 
 ## Table of Contents
 
 - [Description](#description)
-- [Preview](#preview)
 - [Features](#features)
 - [Demo](#demo)
 - [Installation](#installation)
@@ -20,10 +19,6 @@ Welcome to LDN, your ultimate guide to exploring the best of London!
 ## Description
 
 LDN is a web project that provides recommendations for the top places to visit in London. With four distinct pages, it covers everything from must-visit museums to essential transportation information.
-
-## Preview
-
-![LDN Page Preview](./src/img/ldn-preview.gif "LDN Page Preview")
 
 ## Features
 
